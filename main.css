@@ -1,0 +1,60 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100wh;
+    height: 100vh;
+    background-image: linear-gradient(lightblue,pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: rgba(240, 248, 255, 0.424);
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: rgb(122, 122, 122) 0px 0 10px;
+    padding:15px;
+
+}
+
+input{
+    
+    width: 100%;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgba(81, 209, 255, 0.047);
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom:25px ;
+    
+}
+
+li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(186, 230, 99, 0.906);
+    border-radius: 10px;
+    margin-top: 10px;
+    user-select: none;
+}
+
+.cross{
+    all: unset;
+    position: absolute;
+    cursor: pointer;
+    right: 1rem;
+    top: .4rem;
+}
+
+.done{
+    text-decoration: line-through;
+    background-color: rgba(239, 136, 63, 0.513);
+}
